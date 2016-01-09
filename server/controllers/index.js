@@ -21,10 +21,15 @@ module.exports = {
 		}
 	},
 	user: {
+    /**
+     * Handle post requests on the user route
+     * @param  {Object} req Http request object coming from client and passed through middleware
+     * @param  {Object} res Http response object created by server in response to client
+     */
 		post: function(req,res){
 			// This is where we call the DB function for creating new user
 			// TO DO: Make sure you send a response
-		}	
+		}
 	},
 	client: {
 		get: function(req,res){
