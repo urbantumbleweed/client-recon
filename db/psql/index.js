@@ -12,5 +12,3 @@ module.exports = {
   getAllClients: sqlLoad(path.join(__dirname, './get-all-clients')),
   editOneClient: sqlLoad(path.join(__dirname, './edit-one-client')),
 };
-
-console.log(module.exports.editOneClient);
